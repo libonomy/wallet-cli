@@ -1,4 +1,6 @@
-# Libonomy Wallet Package For Libo-Nodes
+## Libonomy Wallet Package For Libo-Nodes
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 The package is developed for the the developers use only which they can utilize when they start exploring the libosystem.
 
 ## Functionality
