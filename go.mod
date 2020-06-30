@@ -6,6 +6,7 @@ require (
 	github.com/c-bata/go-prompt v0.2.3
 	github.com/davecgh/go-xdr v0.0.0-20161123171359-e6a2ba005892
 	github.com/google/uuid v1.1.1
+	github.com/libonomy/ed25519 v0.0.0-20200515113020-867f8a7820c3
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/mattn/go-tty v0.0.0-20190424173100-523744f04859 // indirect
