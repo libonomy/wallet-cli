@@ -1,35 +1,52 @@
-## Libonomy Wallet Package For Libo-Nodes
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+<br />
+<p align="center">
+  <h3 align="center">Libonomy Wallet CLI</h3>
 
-The package is developed for the the developers use only which they can utilize when they start exploring the libosystem.
-
-## Functionality
-The wallet implements the 
-- Account Creation
-- Account Details
-- Message Signature
-- Hex signature with pvt_key
-- Text signature using pvt_key
-- Account Reuse
-
-other functionalities will be released soon
-
-## Guideline
-Make sure that GO is installed and gopath is set properly
-It is recommended that after you clone the repo , you should keep it out of the gopath.
-### Build for linux:
+A command-line wallet tool for creating accounts, managing balances and signing/broadcasting transactions.
 
 
-```bash
-make build-linux
+<b>Halt Status:</b> In Production.
+
+</p>
+
+## Getting Started
+
+Follow the instructions below to run the project locally.
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- **GO**
+
+  Install GO from:
+
+  ```sh
+  https://go.dev/doc/install
+  ```
+
+  ⚠️ **Supported GO version:** `1.13.x`
+
+
+## Installation
+
+1. **Clone the repository**
+
+2. **Navigate to the project directory**
+
+3. **Install dependencies**
+
+```sh
+go mod tidy
 ```
 
-## Using with a local node 
 
-1. Make sure that you have configured the local node properly and the url to local server is properly set.
+### To start the server
 
-2. Build the wallet using the :
+```sh
+go run main.go
+```
 
-```bash
-./cli_wallet_linux_amd64
+```
+Copyright © 2025 — Libonomy
 ```
